@@ -1,0 +1,29 @@
+$codeFontSize: 0.75em;
+
+:global {
+  .katex {
+    font-size: 1em !important;
+  }
+
+  .katex-display {
+    display: block;
+    overflow-x: auto;
+    overflow-y: hidden !important;
+    white-space: nowrap !important;
+
+    .katex {
+      display: inline-block; /* 保持内容水平排列 */
+      width: 100%;
+      height: 100%;
+      // margin-left: 1.5em;
+      padding: 2px 0;
+    }
+  }
+}
+
+.codeblock-container {
+  code {
+    display: block;
+    // border-radius: 8px;
+  }
+}

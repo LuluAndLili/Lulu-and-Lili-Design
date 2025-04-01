@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.demo-hello-world {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+
+  display: flex;
+  font-size: 2rem;
+
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+
+  .demo-hello-world__hello {
+    
+    color: #333;
+  }
+
+  .demo-hello-world__list {
+    margin-left: 0.25em;
+
+    .demo-hello-world__item {
+      position: relative;
+      height: 100%;
+      .demo-hello-world__text-cursor {
+        position: absolute;
+        width: 2px;
+        height: 100%;
+        background-color: red;
+      }
+    }
+  }
+}
