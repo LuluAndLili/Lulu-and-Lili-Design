@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import "./styles/1-reset.scss"
-import { ScrollToTop } from "./codes/functions/ScrollToTop"
+import { ScrollToTop } from "./components/functions/ScrollToTop"
 import { AllChannels } from "./docs/AllChannels"
 import { BasicLayout } from "./components/layouts/BasicLayout"
 import { AllDemos } from "./docs/AllDemos"

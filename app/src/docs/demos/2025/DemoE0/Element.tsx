@@ -19,7 +19,7 @@ const deleteEndDelay = 500; // Delay after deleting is finished (ms)
 const typeSpeed = 100; // Typing speed (ms per character)
 const deleteSpeed = 50; // Deleting speed (ms per character)
 
-const Content = () => {
+const Element = () => {
   const [currentText, setCurrentText] = useState(""); // The text being displayed
   const [currentIndex, setCurrentIndex] = useState(0); // Track the current greeting index
   const [isTyping, setIsTyping] = useState(true); // Track if typing or deleting
@@ -73,4 +73,4 @@ const Content = () => {
   );
 };
 
-export default Content;
+export default Element;

@@ -1,6 +1,6 @@
 import React from "react";
 import { Page } from "../../docs/_types/PageTypes";
-import { ContentMapping } from "../../codes/functions/ContentMapping";
+import { ContentMapping } from "../functions/ContentMapping";
 
 export const BasicLayout: React.FC<{page: Page}> = ({page}) => {
   function layout() {

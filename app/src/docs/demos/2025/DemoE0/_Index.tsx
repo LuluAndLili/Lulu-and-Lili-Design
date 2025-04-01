@@ -1,14 +1,14 @@
 import { Page } from "../../../_types/PageTypes";
-import Content from "./Content";
+import Element from "./Element";
 
 const DemoE0: Page = {
   info: {
-    slug: "demo-e0-the-everchaning-greeting",
+    slug: "demo-e0",
     title: "The Ever-changing Greeting",
     summary: "This is a demo page for E1.",
     pageType: "demo",
   },
-  content: [<Content />],
+  content: [<Element />],
 };
 
 export default DemoE0;
