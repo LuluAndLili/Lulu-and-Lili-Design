@@ -1,4 +1,32 @@
-.demo-grid {
-  display: grid;
-  gap: 16px; // 间距可以自由调整
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+.lully-demo-e1 {
+  font-family: "Roboto Mono", monospace;
+  padding: 64px 24px;
+
+  .lully-demo-e1__container {
+    max-width: 800px;
+    margin: 0 auto;
+    
+    .lully-demo-e1__header {
+      h1 {
+        font-size: 32px;
+        font-weight: bold;
+        font-style: normal;
+        line-height: 40px;
+      }
+      article {
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        line-height: 24px;
+
+        margin-top: 16px;
+      }
+    }
+
+    .lully-demo-e1__showcase {
+      margin-top: 24px;
+    }
+  }
 }
